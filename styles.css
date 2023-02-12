@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.sectionOne {
+    width: 250px;
+    background-color: #195b8fde;
+    color: white;
+}
+.profilePic > img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px 48px 0px 36px;
+    border: white solid 3px;
+}
+.personalDetails h3, .interests h3, .language h3 {
+    text-transform: uppercase;
+    margin-left: 24px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.personalDetails div img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 15px 5px 7px;
+}
+.name, .address, .phone, .email, .driving, .linkedIn {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14px;
+}
+
+.description > h5 {
+    margin: 2px 0px 0px 0px;
+}
+.description p {
+    margin: 0px 0px 10px 0px;
+    font-size: 13px;
+}
+ul {
+    list-style-type: square;
+}
+.firstLine {
+    line-height: 25px;
+}
+.language .firstLine {
+    display: flex;
+    flex-direction: column;
+}
+.language .firstLine div {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 20px;
+}
+.sectionTwo {
+    width: 650px;
+    margin: 10px 15px 10px 20px;
+}
+.sectionTwo h1, .sectionTwo h3 {
+    margin-left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.sectionTwo p {
+    display: contents;
+    align-content: stretch;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.sectionTwo hr {
+    margin-block-start: 20px;
+}
+.sectionTwo img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 15px 5px 7px;
+}
+.workExperience {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.data {
+    display: inline-block;
+    width: 200px;
+    margin-right: 50px;
+}
+.text {
+    width: 450px;
+}
+.text h5 {
+    margin: 0px;
+    font-size: 15px;
+}
